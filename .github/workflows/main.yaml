@@ -1,0 +1,12 @@
+name: Self Hosted Runner
+on: workflow_dispatch
+jobs:
+  self-hosted-runner:
+    runs-on: [self-hosted, gpu]
+    steps:
+    - name: run-me-inside-self-hosted-runner
+      run: |
+         echo "This job is running on a self-hosted runner!"
+
+    - name: sleep for 100 seconds
+      run: sleep 100
