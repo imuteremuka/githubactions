@@ -1,4 +1,4 @@
-name: Self Hosted Runner
+name: Bicep IAC Pipeline
 on: workflow_dispatch
 jobs:
   self-hosted-runner:
